@@ -127,7 +127,8 @@ function saveEditUser(log, pas, em, index): void {
   loginValue.value = '';
   passwordValue.value = '';
   emailValue.value = '';
-
+  addButton.style.display = 'block';
+  editUserButton.style.display = 'none';
   // Генеруємо усі елементи з новими данними по користувачу.
   render();
 }

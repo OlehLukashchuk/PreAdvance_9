@@ -89,6 +89,8 @@ function saveEditUser(log, pas, em, index) {
     loginValue.value = '';
     passwordValue.value = '';
     emailValue.value = '';
+    addButton.style.display = 'block';
+    editUserButton.style.display = 'none';
     render();
 }
 addButton.addEventListener('click', () => {
